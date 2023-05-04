@@ -1,0 +1,43 @@
+.map {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.leaflet-popup-content p {
+  margin: 0 !important;
+}
+.card {
+  width: 200px;
+}
+.card .place {
+  margin-bottom: 7px;
+}
+.card p {
+  text-decoration: underline;
+  display: inline-block;
+  color: green;
+}
+.card h3 {
+  margin-top: 2px;
+}
+.card .review {
+  display: flex;
+  flex-direction: column;
+}
+.card .review span {
+  margin-top: 4px;
+  font-size: 14px;
+}
+.card .rating {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 2px;
+}
+.card .info {
+  display: flex;
+  flex-direction: column;
+}
+.card .info .username {
+  font-weight: bold;
+}
